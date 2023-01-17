@@ -47,6 +47,9 @@ html{
 /*============================
  techno	Main Menu Area Css
 ==============================*/
+.about-circle{
+    filter: hue-rotate(317deg);
+}
 .fade.in {
     opacity: 1;
 }
