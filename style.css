@@ -1376,7 +1376,7 @@ a.em-active-button:hover {
 .breatcome_area:before{
 	position: absolute;
     content: '';
-    background-image: linear-gradient(to right, rgba(12,90,219, 0.85), rgba(12,90,219, 0.80), rgba(18,85,194, 0.70), rgba(34,86,172, 0.75), rgba(38,85,163, 0.75));
+    /* background-image: linear-gradient(to right, rgba(12,90,219, 0.85), rgba(12,90,219, 0.80), rgba(18,85,194, 0.70), rgba(34,86,172, 0.75), rgba(38,85,163, 0.75)); */
     width: 100%;
     height: 100%;
     top: 0;
@@ -2041,7 +2041,7 @@ a.em-active-button:hover {
 	transition:.5s;
 }
 .feature_style_eight:hover .feature_style_eight_icon:before{
-	background: rgba(12,90,219,0.80);
+	background: #006583;
 }
 .anim-icon{
   position: absolute;
@@ -2074,7 +2074,7 @@ a.em-active-button:hover {
   border-radius: 50%;
   -webkit-animation: zoom-fade-two 5s infinite linear;
   animation: zoom-fade-two 5s infinite linear;
-  background:rgba(99, 119, 238, 0.8);
+  background: #86BC42;
 }
 .anim-icon .icon-2{
   position: absolute;
@@ -2085,7 +2085,7 @@ a.em-active-button:hover {
   border-radius: 50%;
   -webkit-animation: zoom-fade-two 4s infinite linear;
   animation: zoom-fade-two 4s infinite linear;
-  background:rgba(99, 119, 238, 0.8);
+  background: #86BC42;
 }
 .anim-icon .icon-3{
   position: absolute;
@@ -2096,7 +2096,7 @@ a.em-active-button:hover {
   border-radius: 50%;
   -webkit-animation: zoom-fade-two 3s infinite linear;
   animation: zoom-fade-two 3s infinite linear;
-  background:rgba(99, 119, 238, 0.8);
+  background: #86BC42;
 }
 .feature_style_eight_title a {
     font-size: 24px;
@@ -3518,6 +3518,7 @@ a.em-active-button:hover {
 }
 .team_style_three_thumb_inner img {
     width: 100%;
+    aspect-ratio: 16/9;
 }
 .team_style_three_content {
     position: absolute;
